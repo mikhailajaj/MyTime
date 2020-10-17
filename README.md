@@ -1,14 +1,18 @@
 # MyTime
 
-_MyTime is yours, Hope you like it
-_Group number 10 _Project*
-_Dr. Jigisha Patel ProG31975 
-_Sheridan College
-_Syed Rehan Faaiz - Mikhail Ajaj - Usman Khan
-_991495753        -991421197     - 991486389
- 
- 
- 
+
+MyTime is yours, Hope you like it
+
+Group number 10 _Project*
+
+Dr. Jigisha Patel ProG31975 
+
+Sheridan College
+
+Syed Rehan Faaiz - Mikhail Ajaj - Usman Khan
+
+991495753        -991421197     - 991486389
+  
 NoteC (what you see on the paper)(almost Done)
 NoteB (While building and planing)
 NoteA (App runs)
