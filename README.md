@@ -1,11 +1,11 @@
 # MyTime
 
-# MyTime is yours, Hope you like the it
-# Group number 10 _Project*
-# Dr. Jigisha Patel ProG31975 
-# Sheridan College
-# Syed Rehan Faaiz - Mikhail Ajaj - Usman Khan
-# -991495753       -991421197     - 991486389
+MyTime is yours, Hope you like the it
+Group number 10 _Project*
+Dr. Jigisha Patel ProG31975 
+Sheridan College
+Syed Rehan Faaiz - Mikhail Ajaj - Usman Khan
+-991495753       -991421197     - 991486389
  
  
  
