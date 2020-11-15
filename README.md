@@ -1,17 +1,26 @@
-# MyTime
+# IOS Proposal
 
+# Purpose: 
+The purpose of this app is for people to find freelancing services such as a barber, car detailing, cleaning services, etc. This mobile application is also for business owners to have an mobile application where they are able to have a custom booking system for the users that choose to book appointments for their services.  
 
-MyTime is yours, Hope you like it
+# The Target Audience:
+The target audience is users looking for any freelancing service and freelancing business owners that need a custom booking system. 
 
-Group number 10 _Project*
+# Important Features: 
+Custom Booking System, GPS map for location of business, user account set up, business account set up, advanced calendar view. 
 
-Dr. Jigisha Patel ProG31975 
+# Future Development Features or if time in semester allows for: 
+Multiple settings that allow the  freeing of time slots of availability. Plus emergency cancelation for business owners. Security; 2 factor authentication for login. 
 
-Sheridan College
+# Services and Functionalities Provided to The User: 
+Email verification, gps tracking service, notifications, database using firebase
 
-Syed Rehan Faaiz - Mikhail Ajaj - Usman Khan
+# Use Cases: 
+User registers account with MyTime Mobile Application to search for services from service list, Once user has selected the desired freelancing business service he may do one of many options which includes stay on the services main page and read the details, or  book an appointment through the advanced calendar view, or find the business on the in app map. Once the user has made an appointment for the business the business email and user email will be notified. 
 
-991495753        -991421197     - 991486389
+# App prototype view:
+https://www.figma.com/file/JhA6HBqeizSp0JBLF6gHy4/Prototype-MyTime
+
   
 NoteC (what you see on the paper)(almost Done)
 NoteB (While building and planing)
