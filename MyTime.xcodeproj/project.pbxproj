@@ -14,6 +14,7 @@
 		298D2F60253ACE89004C5717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298D2F5F253ACE89004C5717 /* Assets.xcassets */; };
 		298D2F63253ACE89004C5717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298D2F62253ACE89004C5717 /* Preview Assets.xcassets */; };
 		298D2F66253ACE89004C5717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298D2F64253ACE89004C5717 /* LaunchScreen.storyboard */; };
+		29A17FDF25611FD400B789CB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A17FDE25611FD400B789CB /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		298D2F62253ACE89004C5717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		298D2F65253ACE89004C5717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298D2F67253ACE89004C5717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A17FDE25611FD400B789CB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,11 @@
 		298D2F55253ACE89004C5717 /* MyTime */ = {
 			isa = PBXGroup;
 			children = (
+				29A17FDC256114A300B789CB /* ViewModel */,
+				29A17FDB2561149900B789CB /* View */,
+				29A17FDA2561148F00B789CB /* Model */,
 				298D2F56253ACE89004C5717 /* AppDelegate.swift */,
 				298D2F58253ACE89004C5717 /* SceneDelegate.swift */,
-				298D2F5A253ACE89004C5717 /* ContentView.swift */,
 				298D2F5F253ACE89004C5717 /* Assets.xcassets */,
 				298D2F64253ACE89004C5717 /* LaunchScreen.storyboard */,
 				298D2F67253ACE89004C5717 /* Info.plist */,
@@ -76,6 +80,29 @@
 				298D2F62253ACE89004C5717 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29A17FDA2561148F00B789CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29A17FDB2561149900B789CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				298D2F5A253ACE89004C5717 /* ContentView.swift */,
+				29A17FDE25611FD400B789CB /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29A17FDC256114A300B789CB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				298D2F5E253ACE89004C5717 /* MyTime.xcdatamodeld in Sources */,
+				29A17FDF25611FD400B789CB /* SignUpView.swift in Sources */,
 				298D2F57253ACE89004C5717 /* AppDelegate.swift in Sources */,
 				298D2F59253ACE89004C5717 /* SceneDelegate.swift in Sources */,
 				298D2F5B253ACE89004C5717 /* ContentView.swift in Sources */,
