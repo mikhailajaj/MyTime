@@ -16,7 +16,7 @@ struct SignUpView: View {
     @State private var saveMyInfo : Bool = true
     var body: some View {
         NavigationView{
-            VStack( spacing: 20){
+            VStack( spacing: 10){
                 HStack(alignment: .center){
                     Text("Sign Up").font(.title)
                 }
@@ -41,21 +41,26 @@ struct SignUpView: View {
                     }
                 }
                 HStack(alignment: .center){
-                    NavigationLink(destination: SignUpView()){
+                    NavigationLink(destination: Dashboard()){
                         Text("Sign Up")
                     }
-//                    Button(action:{
-//
-//                        print(#function,"SignUp Clicked")
-//
-//                    }){
-//
-//                        //prderd backgrond color radious
-//                    }
                 }
+                Spacer()
+//
+                
             }//VStack
             .padding()
-            .navigationBarTitle("MyTime")
+            .navigationBarBackButtonHidden(true)
+            .navigationBarItems(leading:
+                                    HStack{
+                                        //we can add some function when the user click the logo
+                                    Image("Logo").resizable()
+                    .aspectRatio(contentMode: .fit)
+                                        .frame(width: 70, height: 70, alignment: .center)
+                                    Text("MyTime").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+
+                                    })
+            
         }//NavigationView
     }
 }
