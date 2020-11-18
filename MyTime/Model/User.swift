@@ -7,8 +7,9 @@
 
 import Foundation
 
+
 struct User{
-    private var id: UUID
+    private var id: UUID = UUID()
     private var name:String = ""
     private var email:String = ""
     private var password:String = ""
@@ -16,17 +17,20 @@ struct User{
     // TimeScahadual Used in a diffrent View to make selection for it's Type
     
     // id:UUID, hoursAvailability: [Int],dateAvailability: [Date],datdListBooked:[Date]
-    private var timeSchadual: TimeScahadual
+    private var _timeSchadual: TimeScahadual = TimeScahadual()
     private var phoneNumber: String = ""
     public var rememberMe: Bool = true
 
-    init(name:String,email:String,password:String,phoneNumber:String){
+    init(){}
+    
+    init(name:String,email:String,password:String,phoneNumber:String,timeSchadual:TimeScahadual){
         self.name = name
         self.email = email
         self.password = password
         self.phoneNumber = phoneNumber
-        self.timeSchadual = timeSchadual
+        self._timeSchadual = timeSchadual
+            
     }
-    
-    
 }
+    
+

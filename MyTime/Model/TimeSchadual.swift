@@ -6,14 +6,14 @@
 //
 
 import Foundation
-class TimeScahadual{
-    public var _id:UUID
-    public var _hoursAvailability: [Int]
-    public var _dateAvailability:[Date]
-    public var _datdListBooked:[Date]
-    
-    init (id:UUID, hoursAvailability: [Int],dateAvailability: [Date],datdListBooked:[Date]) {
-    self._id = id
+class TimeScahadual: ObservableObject{
+    private var _id: UUID? = UUID()
+    private var _hoursAvailability: Int? = 0
+    private var _dateAvailability:[Date]?
+    private var _datdListBooked:[Date]?
+    init() {
+    }
+    init (hoursAvailability: Int,dateAvailability: [Date],datdListBooked:[Date]) {
     self._hoursAvailability = hoursAvailability
     self._dateAvailability = dateAvailability
     self._datdListBooked = datdListBooked

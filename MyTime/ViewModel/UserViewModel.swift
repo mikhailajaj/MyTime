@@ -13,15 +13,16 @@ import UIKit
 public class UserViewModel : ObservableObject {
     @Published var loggedInUser : User?
     @Published var userList = [User]()
-    
+    @ObservedObject var timeSchadual = TimeScahadual()
     private let moc : NSManagedObjectContext
     
     init(context: NSManagedObjectContext){
         self.moc = context
     }
-    
+    /*
     func insertUser(name: String, email: String, phoneNumber: String, password: String){
-        do{
+        //do{
+        newSchadual = timeSchadual
             newUser = User(name: name, email: email, password: password, phoneNumber: phon, timeSchadual: <#T##TimeScahadual#>)
             //let newUser = NSEntityDescription.insertNewObject(forEntityName: "User", into: moc) as! User
             
@@ -30,14 +31,14 @@ public class UserViewModel : ObservableObject {
             newUser.carPlate = carPlate
             newUser.password = password
             
-            try moc.save()
+            //try moc.save()
             
             print("User account successfully created")
             
-        }catch let error as NSError{
+        //}catch let error as NSError{
             print("Something went wrong. Couldn't create account.")
             print("\(error) \(error.localizedDescription)")
-        }
+        //}
     }
     
     func findUserByEmail(email: String){
@@ -95,4 +96,5 @@ public class UserViewModel : ObservableObject {
             print(#function, "Cannot delete user account \(error.localizedDescription)")
         }
     }
+ */
 }

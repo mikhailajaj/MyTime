@@ -14,27 +14,55 @@ struct SignUpView: View {
     @State private var email :String = ""
     @State private var password :String = ""
     @State private var saveMyInfo : Bool = true
+    @State private var timeAvailabilityList = [0,4,8,12,16]
+    @State private var timeAvailability:Int = 0
+    @State private var AvailableFrom:Date = Date()
+    @State private var offOnDate:Date = Date()
     var body: some View {
         NavigationView{
-            VStack( spacing: 10){
+            
+            VStack(){
+                Section{
                 HStack(alignment: .center){
                     Text("Sign Up").font(.title)
                 }
+                }
+                Section{
                 HStack{
                 TextField("Full name",text: $fullName)
                 }
+                }
+                Section{
                 HStack{
                 TextField("Phone#",text: $phone)
                 }
+                }
+                Section{
                 HStack{
                 TextField("Address",text: $address)
                 }
+                }
+                Section{
                 HStack{
                 TextField("Email",text: $email)
                 }
+                }
+                Section{
                 HStack{
                 TextField("Password",text: $password)
                 }
+                }
+                Section(header: Text("Hours Availability")){
+                HStack{
+                    Picker(selection:$timeAvailability,label:Text("Hours Availability")){
+                        ForEach (0 ..< timeAvailabilityList.count){
+                            item in Text("\( timeAvailabilityList[item])")
+                        }
+                    }.pickerStyle(SegmentedPickerStyle())
+                }
+                }
+                DatePicker("You are available from", selection: $AvailableFrom, displayedComponents: .date)
+                //DatePicker("You are off on", selection: $offOnDate, displayedComponents: .date)
                 HStack{
                     Toggle(isOn: $saveMyInfo){
                         Text("remember me?")
@@ -45,7 +73,7 @@ struct SignUpView: View {
                         Text("Sign Up")
                     }
                 }
-                Spacer()
+                //Spacer()
 //
                 
             }//VStack
@@ -59,9 +87,9 @@ struct SignUpView: View {
                                         .frame(width: 70, height: 70, alignment: .center)
                                     Text("MyTime").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                                     })
-            
+            }
         }//NavigationView
-    }
+    
 }
 
 struct SignUpView_Previews: PreviewProvider {
