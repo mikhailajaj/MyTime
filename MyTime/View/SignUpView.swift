@@ -58,7 +58,6 @@ struct SignUpView: View {
                     .aspectRatio(contentMode: .fit)
                                         .frame(width: 70, height: 70, alignment: .center)
                                     Text("MyTime").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-
                                     })
             
         }//NavigationView
