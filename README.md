@@ -79,6 +79,8 @@ pp Arechature Design:MVC - MVVM(!)?
 # -----Project preposals-----
 # *Syed: Covid Inform Tracker: 
   https://cloud.degoo.com/share/60L0CIcdWqeQ8d
+  Informs seniors about health related information to those have extreme symptoms from COVID
+  
   
 # *Mikhail: MyTime
 -Universal app that can be used propositionally or personally,
