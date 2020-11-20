@@ -45,6 +45,13 @@ struct ContentView: View {
                         }
                     }
                     Button(action: {
+                        // TODO: API forget password
+                        // TODO: new View ask for Email
+                        // TODO: the new View send request to database
+                        // 1- creates new request API send the email
+                        // 2- when confirmed email (new View with two Text fields _password and conform password)
+                        // 3- change the data in the database + core data in the device
+                        // 4- redirect the user to the Dashbord :)
                         print("Account resetted")
                         self.selection = 1
                     }){

@@ -14,6 +14,7 @@
 		292D672F2564E4C300006EE8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292D672E2564E4C300006EE8 /* User.swift */; };
 		292D67322564E4FA00006EE8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292D67312564E4FA00006EE8 /* UserViewModel.swift */; };
 		292D67352564E5CB00006EE8 /* TimeSchadual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292D67342564E5CB00006EE8 /* TimeSchadual.swift */; };
+		29366C0125675AEE005CF6D0 /* TimeManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29366C0025675AEE005CF6D0 /* TimeManagerView.swift */; };
 		298D2F57253ACE89004C5717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D2F56253ACE89004C5717 /* AppDelegate.swift */; };
 		298D2F59253ACE89004C5717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D2F58253ACE89004C5717 /* SceneDelegate.swift */; };
 		298D2F5B253ACE89004C5717 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D2F5A253ACE89004C5717 /* LogInView.swift */; };
@@ -32,6 +33,7 @@
 		292D672E2564E4C300006EE8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		292D67312564E4FA00006EE8 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		292D67342564E5CB00006EE8 /* TimeSchadual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSchadual.swift; sourceTree = "<group>"; };
+		29366C0025675AEE005CF6D0 /* TimeManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManagerView.swift; sourceTree = "<group>"; };
 		298D2F53253ACE89004C5717 /* MyTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298D2F56253ACE89004C5717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		298D2F58253ACE89004C5717 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				29A17FDE25611FD400B789CB /* SignUpView.swift */,
 				2903AEB225622A4B003DAE84 /* Dashboard.swift */,
 				292D67252564E37B00006EE8 /* MapView.swift */,
+				29366C0025675AEE005CF6D0 /* TimeManagerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				292D671D2564DF4F00006EE8 /* LocationManager.swift in Sources */,
 				298D2F59253ACE89004C5717 /* SceneDelegate.swift in Sources */,
 				2903AEB325622A4B003DAE84 /* Dashboard.swift in Sources */,
+				29366C0125675AEE005CF6D0 /* TimeManagerView.swift in Sources */,
 				298D2F5B253ACE89004C5717 /* LogInView.swift in Sources */,
 				292D67352564E5CB00006EE8 /* TimeSchadual.swift in Sources */,
 				292D672F2564E4C300006EE8 /* User.swift in Sources */,

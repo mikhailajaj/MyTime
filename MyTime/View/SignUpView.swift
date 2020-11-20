@@ -21,12 +21,15 @@ struct SignUpView: View {
     var body: some View {
         NavigationView{
             
-            VStack(){
+            //VStack(){
+                Form{
+                /*
                 Section{
                 HStack(alignment: .center){
                     Text("Sign Up").font(.title)
                 }
                 }
+ */
                 Section{
                 HStack{
                 TextField("Full name",text: $fullName)
@@ -61,7 +64,8 @@ struct SignUpView: View {
                     }.pickerStyle(SegmentedPickerStyle())
                 }
                 }
-                DatePicker("You are available from", selection: $AvailableFrom, displayedComponents: .date)
+                // Next View saved data on the device
+                //DatePicker("You are available from", selection: $AvailableFrom, displayedComponents: .date)
                 //DatePicker("You are off on", selection: $offOnDate, displayedComponents: .date)
                 HStack{
                     Toggle(isOn: $saveMyInfo){
@@ -69,27 +73,17 @@ struct SignUpView: View {
                     }
                 }
                 HStack(alignment: .center){
-                    NavigationLink(destination: Dashboard()){
-                        Text("Sign Up")
+                    NavigationLink(destination: TimeManagerView()){
+                        Text("Next")
                     }
+                }
                 }
                 //Spacer()
 //
                 
-            }//VStack
-            .padding()
-            .navigationBarBackButtonHidden(true)
-            .navigationBarItems(leading:
-                                    HStack{
-                                        //we can add some function when the user click the logo
-                                    Image("Logo").resizable()
-                    .aspectRatio(contentMode: .fit)
-                                        .frame(width: 70, height: 70, alignment: .center)
-                                    Text("MyTime").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                                    })
+            //}//VStack
             }
-        }//NavigationView
-    
+    }
 }
 
 struct SignUpView_Previews: PreviewProvider {

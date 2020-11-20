@@ -10,15 +10,15 @@ import Foundation
 
 struct User{
     private var id: UUID = UUID()
-    private var name:String = ""
-    private var email:String = ""
+    public var name:String = ""
+    public var email:String = ""
     private var password:String = ""
-    
+    public var address : String = ""
     // TimeScahadual Used in a diffrent View to make selection for it's Type
     
     // id:UUID, hoursAvailability: [Int],dateAvailability: [Date],datdListBooked:[Date]
-    private var _timeSchadual: TimeScahadual = TimeScahadual()
-    private var phoneNumber: String = ""
+    public var _timeSchadual: TimeScahadual = TimeScahadual()
+    public var phoneNumber: String = ""
     public var rememberMe: Bool = true
 
     init(){}
@@ -30,6 +30,13 @@ struct User{
         self.phoneNumber = phoneNumber
         self._timeSchadual = timeSchadual
             
+    }
+    init(name:String,email:String,password:String,phoneNumber:String, address: String){
+        self.name = name
+        self.email = email
+        self.password = password
+        self.phoneNumber = phoneNumber
+        self.address = address
     }
 }
     
