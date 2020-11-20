@@ -63,14 +63,15 @@ struct ContentView: View {
                 
                 Spacer()
                 HStack{
-                    Button(action:{
-                        //create map
-                        print("hi")
-                    }){
-                        //pressing the word map alows the user to surff over all the location provider demo
+                    NavigationLink(destination: MapView()){
                         Text("Map")
-                        
+                      
                     }
+                    
+                    NavigationLink(destination: BookTimeFrameView()){
+                        Text("Book An appointment")
+                    }
+                        //pressing the word map alows the user to surff over all the location provider demo
                 }
         
             }//VStack
@@ -90,7 +91,9 @@ struct ContentView: View {
             )
             
         }//NavigationView
-        
+        .onAppear(){
+            print("Hi there")
+        }
     }//body
     
 }

@@ -31,6 +31,15 @@ struct User{
         self._timeSchadual = timeSchadual
             
     }
+    //BookTimeFrameView
+    init(name:String,email:String,phoneNumber:String,timeSchadual:TimeScahadual){
+        self.name = name
+        self.email = email
+        self.phoneNumber = phoneNumber
+        self._timeSchadual = timeSchadual
+            
+    }
+    //SignUpView
     init(name:String,email:String,password:String,phoneNumber:String, address: String){
         self.name = name
         self.email = email

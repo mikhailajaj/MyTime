@@ -44,8 +44,8 @@ struct TimeManagerView: View {
                 DatePicker("You are available from", selection: $AvailableFrom, displayedComponents: .date)
                 DatePicker("You are off on", selection: $offOnDate, displayedComponents: .date)
                     
-                    DatePicker("You are off on", selection: $AvailableFromTime, displayedComponents: .hourAndMinute)
-                DatePicker("You are off on", selection: $offOnTime, displayedComponents: .hourAndMinute)
+                    DatePicker("You are Available at", selection: $AvailableFromTime, displayedComponents: .hourAndMinute)
+                    DatePicker("You are off at", selection: $offOnTime, displayedComponents: .hourAndMinute)
                 
                 HStack(alignment: .center){
                     //TODO: Save data (User) + (Availabilty)
