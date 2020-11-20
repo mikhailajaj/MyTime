@@ -38,9 +38,9 @@ View(){}:
   
 Required: Splash Screen, Sign Up, Login, Navigation Menu, Calendar, Date, 
 
-	Syed:
-  Mikhail:
-	Usman:
+Syed: Core Data, Organizing the view, validation ...
+Mikhail: Created the Views, the structure/relationships of the data ...
+Usman: MapView, Logo ...
   
   Project Controler Hat(){}: 
 	(Designer Hat UI,UX FrontEnd)
