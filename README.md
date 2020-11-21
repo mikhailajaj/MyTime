@@ -1,5 +1,9 @@
 # IOS Proposal
-
+/*
+** I wasn't able to upload the picture, the link for the file I am updating is
+*https://docs.google.com/document/d/1609LGQxpq3BfhJO1xb7nNh-zxqmAxmOEv4Bvj6z8pAg/edit?usp=sharing
+** the Vedio of the app should be available Monday morning Nov 23ed 2020
+*/
 # Purpose: 
 The purpose of this app is for people to find freelancing services such as a barber, car detailing, cleaning services, etc. This mobile application is also for business owners to have an mobile application where they are able to have a custom booking system for the users that choose to book appointments for their services.  
 
@@ -51,9 +55,9 @@ View(){}:
   
 Required: Splash Screen, Sign Up, Login, Navigation Menu, Calendar, Date, 
 
-	Syed:
-  Mikhail:
-	Usman:
+Syed: Core Data, Organizinig the View, validation...
+Mikhail: create the views, structures/relationships  of data...
+Usman: MapView, Logo...
   
   Project Controler Hat(){}: 
 	(Designer Hat UI,UX FrontEnd)
